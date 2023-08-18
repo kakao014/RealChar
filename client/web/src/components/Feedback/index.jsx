@@ -1,5 +1,5 @@
 /**
- * src/components/Feedback/index.jsx
+ * src/components/Feedback/index.tsx
  * Submit feedback.
  *
  * created by pycui on 8/5/23

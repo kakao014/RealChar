@@ -1,5 +1,5 @@
 /**
- * src/components/AvatarView/index.jsx
+ * src/components/AvatarView/index.tsx
  *
  * created by BennyKok on 7/30/23
  * AvatarView wrapping useAvatar hook from @avatechai/avatars/react

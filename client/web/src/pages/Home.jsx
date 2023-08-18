@@ -56,12 +56,19 @@ const Home = ({
   }, [setCharacterGroups, token]);
 
   const handleNextClick = () => {
+    console.log("next click...............")
     setCharacterConfirmed(true);
     const compressedCharacter = lz.compressToEncodedURIComponent(
       JSON.stringify(selectedCharacter)
     );
     navigate('/settings?character=' + compressedCharacter);
   };
+
+  const handleLogin= () => {
+    console.log("login click...............")
+    navigate('/login');
+  };
+
 
   return (
     <div className='home'>
@@ -95,6 +102,24 @@ const Home = ({
             }}
           >
             Next
+          </Button>
+
+
+           <Button
+            variant='contained'
+            onClick={handleLogin}
+            fullWidth
+            size='large'
+
+            sx={{
+              '&.Mui-disabled': {
+                backgroundColor: '#BEC5D9',
+                color: '#636A84',
+              },
+              textTransform: 'none',
+            }}
+          >
+            Login
           </Button>
         </>
       )}

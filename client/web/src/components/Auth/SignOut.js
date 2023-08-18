@@ -12,7 +12,7 @@ import Avatar from '@mui/material/Avatar';
 import { Navbar, Dropdown } from '@nextui-org/react';
 import { useNavigate } from 'react-router-dom';
 import './styles.css';
-
+import 'tailwindcss/tailwind.css';
 const SignOut = ({ isLoggedIn, user, handleDisconnect }) => {
   const navigate = useNavigate();
   const signout = async () => {

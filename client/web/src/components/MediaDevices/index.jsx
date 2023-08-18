@@ -1,5 +1,5 @@
 /**
- * src/components/MediaDevices/index.jsx
+ * src/components/MediaDevices/index.tsx
  * generate a list of media devices.
  *
  * created by Lynchee on 7/16/23

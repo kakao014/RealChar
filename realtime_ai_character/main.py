@@ -15,6 +15,9 @@ from realtime_ai_character.websocket_routes import router as websocket_router
 
 load_dotenv()
 
+
+
+
 app = FastAPI()
 
 app.add_middleware(

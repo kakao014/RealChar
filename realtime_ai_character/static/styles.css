@@ -1,5 +1,5 @@
 body {
-  background-color: #02081d;
+  background-color: #FFF;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +34,7 @@ body {
 }
 
 #mobile-warning {
-  color: white;
+  color: #8d0000;
 }
 
 #mobile-warning p {
@@ -47,7 +47,7 @@ body {
 }
 
 .header p {
-  color: #cccccc;
+  color: #414141;
   font-family: 'Prompt', Helvetica;
   font-size: 25px;
   font-weight: 200;

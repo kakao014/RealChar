@@ -10,6 +10,7 @@ import auth from '../../utils/firebase';
 import { getHostName } from '../../utils/urlUtils';
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 import './styles.css';
+import 'tailwindcss/tailwind.css';
 import { isIP } from 'is-ip';
 
 export const sendTokenToServer = async token => {

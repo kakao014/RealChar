@@ -1,5 +1,5 @@
 /**
- * src/components/CommunicationMethod/index.jsx
+ * src/components/CommunicationMethod/index.tsx
  * Select call or text
  *
  * created by Lynchee on 7/30/23

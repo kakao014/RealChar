@@ -1,0 +1,59 @@
+.logoimg2 {
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 41px;
+  height: 41px;
+}
+.logo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.div4 {
+  position: relative;
+  line-height: 24px;
+}
+.pcmenu1 {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 52px;
+  text-align: left;
+  font-size: 16px;
+  color: #319795;
+  font-family: Roboto;
+}
+.union-icon1 {
+  position: relative;
+  width: 20px;
+  height: 14px;
+  display: none;
+}
+.header1,
+.nav1 {
+  display: flex;
+  flex-direction: row;
+}
+.nav1 {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 52px;
+}
+.header1 {
+  padding: 20px;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .nav1:hover .pcmenu1 {
+    display: none;
+  }
+  .nav1:hover .union-icon1 {
+    display: flex;
+  }
+}

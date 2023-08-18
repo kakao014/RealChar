@@ -1,5 +1,5 @@
 /**
- * src/components/Models/index.jsx
+ * src/components/Models/index.tsx
  * Select a model: gpt3.5, gpt4, or claude
  *
  * created by Lynchee on 7/20/23

@@ -439,10 +439,13 @@ messageButton.addEventListener('click', function () {
   stopCallButton.style.display = 'none';
   soundWave.style.display = 'none';
 
+  console.log("message")
   showRecordingStatus();
+
 });
 
 const sendMessage = () => {
+  console.log("send")
   if (socket && socket.readyState === WebSocket.OPEN) {
     const message = messageInput.value;
     chatWindow.value += `\nYou> ${message}\n`;

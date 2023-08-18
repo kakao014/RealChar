@@ -1,5 +1,5 @@
 /**
- * src/components/Languages/index.jsx
+ * src/components/Languages/index.tsx
  * Select a language: currently support English or Spanish
  *
  * created by pycui on 7/28/23

@@ -1,5 +1,5 @@
 /**
- * src/components/TextView/index.jsx
+ * src/components/TextView/index.tsx
  * show chat log. User can send message and switch to CallView.
  *
  * created by Lynchee on 7/16/23

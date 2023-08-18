@@ -1,5 +1,5 @@
 /**
- * src/components/CallView/index.jsx
+ * src/components/CallView/index.tsx
  * User can stop or continue the call. Allows audios playing and switch to TextView.
  *
  * created by Lynchee on 7/16/23

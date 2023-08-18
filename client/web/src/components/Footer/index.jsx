@@ -1,5 +1,5 @@
 /**
- * src/components/Footer/index.jsx
+ * src/components/Footer/index.tsx
  * Footer message and public links
  *
  * created by Lynchee on 7/16/23

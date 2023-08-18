@@ -1,5 +1,5 @@
 /**
- * src/components/Search/index.jsx
+ * src/components/Search/index.tsx
  * Enable google search
  *
  * created by Lynchee on 7/30/23

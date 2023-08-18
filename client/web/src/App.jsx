@@ -27,6 +27,9 @@ import auth from './utils/firebase';
 import useWebsocket from './hooks/useWebsocket';
 import useMediaRecorder from './hooks/useMediaRecorder';
 import useSpeechRecognition from './hooks/useSpeechRecognition';
+import LoginPage from "./pages/LoginPage";
+import CharaPage from "./pages/CharaPage";
+import ChatPage from "./pages/ChatPage";
 
 const App = () => {
   const [sessionId, setSessionId] = useState('');
@@ -332,9 +335,14 @@ const App = () => {
           />
           <Route path='/shared' element={<SharedConversation />} />
           <Route path='/create' element={<CharCreate token={token} />} />
+          <Route path='/login' element={<LoginPage />} />
+          <Route path='/charaPage' element={<CharaPage />} />
+          <Route path='/chatPage' element={<ChatPage />} />
+
+
         </Routes>
 
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

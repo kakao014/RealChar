@@ -1,5 +1,5 @@
 /**
- * src/components/Characters/index.jsx
+ * src/components/Characters/index.tsx
  * create and display characters
  *
  * created by Lynchee on 7/16/23
