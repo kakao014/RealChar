@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="68c9a36c-669e-4d51-a6d7-d4645677f57c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/RealChar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/web/src/assets/images/davinci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime_ai_character/character_catalog/davinci/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime_ai_character/character_catalog/davinci/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime_ai_character/character_catalog/davinci/data/background" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime_ai_character/character_catalog/davinci/data/handpiece.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime_ai_character/character_catalog/davinci/data/life.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/realtime_ai_character/character_catalog/davinci/data/work.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/web/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/web/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/client/web/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/bruce_wayne/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/bruce_wayne/data/background" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/bruce_wayne/data/quotes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/catalog_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/realtime_ai_character/character_catalog/catalog_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/arnold_schwarzenegger/arnold_schwarzenegger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/arnold_schwarzenegger/audio_sample/arnold.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/arnold_schwarzenegger/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/arnold_schwarzenegger/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/helen_inhabitants_zone/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/helen_inhabitants_zone/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/helen_inhabitants_zone/data/background" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/helen_inhabitants_zone/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/helen_inhabitants_zone/helen_inhabitants_zone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/keanu_reeves/audio_sample/keanu.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/keanu_reeves/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/keanu_reeves/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/keanu_reeves/keanu_reeves.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/mark_zuckerberg/audio_sample/mark.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/mark_zuckerberg/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/mark_zuckerberg/data/cage_fight" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/mark_zuckerberg/data/llama2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/mark_zuckerberg/mark_zuckerberg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/raiden_shogun_and_ei_avatar/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/raiden_shogun_and_ei_avatar/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/raiden_shogun_and_ei_avatar/raiden_shogun_and_ei_avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/the_cat/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/the_cat/data/background" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/the_cat/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/the_cat/the_cat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/the_dophin/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/the_dophin/data/background" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/the_dophin/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/the_dophin/the_dolphin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/unreal_speech/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/unreal_speech/data/background" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/unreal_speech/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/community/unreal_speech/unreal_speech.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/elon_musk/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/elon_musk/data/Elon Musk’s unique human ID.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/elon_musk/data/about_zuck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/elon_musk/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/elon_musk/data/xai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/raiden_shogun_and_ei/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/raiden_shogun_and_ei/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/sam_altman/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/sam_altman/data/ai-governance-forward" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/sam_altman/data/custom-instructions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/sam_altman/data/function-calling" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/sam_altman/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/sam_altman/data/wiki" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/steve_jobs/config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/steve_jobs/data/products" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/steve_jobs/data/talk.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/realtime_ai_character/character_catalog/steve_jobs/data/vision_pro" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="yc" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/client/web/package.json" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Tmiqw7o5UuzeqwPtzOavknjmMx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Yc/Projects/AI/gptCodeUI/gpt-code-ui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Program Files\\JetBrains\\PyCharm 2023.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Yc\Projects\AI\RealChar\ycChar\RealChar\client\web\src\assets\images" />
+      <recent name="D:\Yc\Projects\AI\RealChar\ycChar\RealChar\client\web\src\components" />
+      <recent name="D:\Yc\Projects\AI\RealChar\ycChar\RealChar\client\web" />
+      <recent name="D:\Yc\Projects\AI\RealChar\ycChar\RealChar\client\web\src" />
+      <recent name="D:\Yc\Projects\AI\RealChar\ycChar\RealChar\client\web\src\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68c9a36c-669e-4d51-a6d7-d4645677f57c" name="Changes" comment="" />
+      <created>1691654850713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691654850713</updated>
+      <workItem from="1691654851727" duration="4499000" />
+      <workItem from="1691659632021" duration="5000" />
+      <workItem from="1691664387007" duration="2150000" />
+      <workItem from="1691726649728" duration="8785000" />
+      <workItem from="1691883828433" duration="15643000" />
+      <workItem from="1692252644374" duration="5817000" />
+      <workItem from="1692354231665" duration="28330000" />
+      <workItem from="1692624261261" duration="6329000" />
+      <workItem from="1692633961997" duration="4293000" />
+      <workItem from="1692977894534" duration="596000" />
+      <workItem from="1692978677694" duration="11000" />
+      <workItem from="1693297156521" duration="1703000" />
+      <workItem from="1693300332105" duration="619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

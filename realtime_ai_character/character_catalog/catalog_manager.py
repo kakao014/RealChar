@@ -56,7 +56,7 @@ class CatalogManager(Singleton):
 
     def load_character(self, directory):
         with ExitStack() as stack:
-            f_yaml = stack.enter_context(open(directory / 'config.yaml'))
+            f_yaml = stack.enter_context(open(directory / 'config.yaml','rb'))
             yaml_content = yaml.safe_load(f_yaml)
 
         character_id = yaml_content['character_id']
