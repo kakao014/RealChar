@@ -20,6 +20,8 @@ import SharedConversation from './pages/SharedConversation';
 import Home from './pages/Home';
 import CharCreate from './pages/CharCreate';
 import CharDelete from './pages/CharDelete';
+import Privacy from './pages/Privacy';
+import Support from './pages/Support';
 
 // utils
 import auth from './utils/firebase';
@@ -40,6 +42,7 @@ const App = () => {
   const [useQuivr, setUseQuivr] = useState(false);
   const [quivrApiKey, setQuivrApiKey] = useState('');
   const [quivrBrainId, setQuivrBrainId] = useState('');
+  const [useMultiOn, setUseMultiOn] = useState(false);
   const [useEchoCancellation, setUseEchoCancellation] = useState(false);
   const [user, setUser] = useState(null);
   const isLoggedIn = useRef(false);
@@ -159,6 +162,7 @@ const App = () => {
     preferredLanguage,
     useSearch,
     useQuivr,
+    useMultiOn,
     selectedCharacter,
     setSessionId
   );
@@ -183,6 +187,7 @@ const App = () => {
     audioSent,
     stopAudioPlayback,
     send,
+    startRecording,
     stopRecording,
     setTextAreaValue
   );
@@ -256,6 +261,7 @@ const App = () => {
       setIsRecording(true);
       enableHark();
     } else {
+      setIsRecording(true);
       startRecording();
       startListening();
     }
@@ -344,6 +350,8 @@ const App = () => {
                 setQuivrApiKey={setQuivrApiKey}
                 quivrBrainId={quivrBrainId}
                 setQuivrBrainId={setQuivrBrainId}
+                useMultiOn={useMultiOn}
+                setUseMultiOn={setUseMultiOn}
                 useEchoCancellation={useEchoCancellation}
                 setUseEchoCancellation={setUseEchoCancellation}
                 send={send}
@@ -391,6 +399,7 @@ const App = () => {
                 setSelectedCharacter={setSelectedCharacter}
                 setSelectedModel={setSelectedModel}
                 setSelectedDevice={setSelectedDevice}
+                setUseMultiOn={setUseMultiOn}
                 connect={connect}
                 messageId={messageId}
                 token={token}
@@ -411,6 +420,8 @@ const App = () => {
               />
             }
           />
+          <Route path='/privacy' element={<Privacy />} />
+          <Route path='/support' element={<Support />} />
         </Routes>
 
         <Footer />
